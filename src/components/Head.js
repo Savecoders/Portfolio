@@ -1,8 +1,8 @@
 import NavBar from './Navbar';
-import background from '../Ellipse.svg';
+import background from '../svg/Ellipse.svg';
 const Head = () => {
 	return (
-		<header className='bg-bg w-screen h-screen'>
+		<header className='bg-bg min-w-screen min-h-screen'>
 			<NavBar />
 			<div className='flex justify-center '>
 				<section
