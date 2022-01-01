@@ -29,6 +29,11 @@ const Head = () => {
 						alt='background'
 					/>
 				</section>
+				<aside className=' flex flex-col justify-center  xl:max-h-screen xl:mr-16 mb-16'>
+					<i className='text-color-secundary text-3xl backdrop-blur-0 drop-shadow-small-lg mb-4  bx bxl-github'></i>
+					<i className='text-color-secundary text-3xl backdrop-blur-0 drop-shadow-small-lg mb-4  bx bxl-linkedin-square'></i>
+					<i className='text-color-secundary text-3xl backdrop-blur-0 drop-shadow-small-lg mb-4  bx bxl-twitter'></i>
+				</aside>
 			</div>
 		</header>
 	);
